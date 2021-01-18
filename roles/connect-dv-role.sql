@@ -1,0 +1,15 @@
+CALL SYSADMIN.addRole(name => 'connect-dv-role', allowCreateTempTables  => false);;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN', permissions => 'R');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.changeUserPwd', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getUserProperty', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getInstalledLicense', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getCurrentDWH', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.refreshDataSource', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.refreshAllDataSources', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getServerVersion', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getServerBuildInfo', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getDefaultOptionValue', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getDataCatalogAttribute', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSADMIN.getAuthMechanism', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'SYSLOG', permissions => 'R');;
+CALL SYSADMIN.setPermissions(role_name => 'connect-dv-role', resourceName => 'INFORMATION_SCHEMA', permissions => 'R');;

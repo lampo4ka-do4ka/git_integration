@@ -1,0 +1,12 @@
+CALL SYSADMIN.addRole(name => 'export-dv-role', allowCreateTempTables  => false);;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => '*', permissions => 'R');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.getUserProperty', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.getViewAndProcCreationOrder', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.getDefaultOptionValue', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.createOptimizationQuery', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.getEncryptedUserPwd', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN_VDB.SSHTunnel', permissions => 'R');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'UTILS.getSmtpConfiguration', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.getAuthMechanism', permissions => 'RE');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.ScheduleJobExtraProperties', permissions => 'R');;
+CALL SYSADMIN.setPermissions(role_name => 'export-dv-role', resourceName => 'SYSADMIN.executeCli', permissions => 'RE');;
