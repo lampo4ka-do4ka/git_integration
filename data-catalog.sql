@@ -1,0 +1,1 @@
+CALL SYSADMIN.setDataCatalogAttribute(name => 'c.p1', attribute => 'owner', attrValue => 'user1');;
