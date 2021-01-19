@@ -1,0 +1,2 @@
+call SYSADMIN.createConnection(name => 'file', jbossCliTemplateName => 'ufile', connectionOrResourceAdapterProperties => 'ParentDirectory=E:/TestData,decompressCompressedFiles=false', encryptedProperties => '');;
+call SYSADMIN.createDatasource(name => 'file', translator => 'ufile', modelProperties => 'importer.useFullSchemaName=false', translatorProperties => '', encryptedModelProperties => '', encryptedTranslatorProperties => '');;
