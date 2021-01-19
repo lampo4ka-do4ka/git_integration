@@ -1,1 +1,0 @@
-create procedure views.p2() as begin select * from views.v1; end;
