@@ -1,1 +1,0 @@
-CALL SYSADMIN.createVirtualSchema('w');;
