@@ -1,1 +1,0 @@
-create view views.v3 as select 1
