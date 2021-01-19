@@ -1,0 +1,1 @@
+create procedure "c"."p1"() as begin select 1; end;
