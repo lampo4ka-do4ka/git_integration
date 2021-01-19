@@ -1,1 +1,0 @@
-create view "d"."v2" as select a from "pg.test1"
