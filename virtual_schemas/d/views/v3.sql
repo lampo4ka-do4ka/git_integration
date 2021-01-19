@@ -1,0 +1,1 @@
+create view "d"."v3" as select 1
