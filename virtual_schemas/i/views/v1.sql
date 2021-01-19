@@ -1,0 +1,1 @@
+create view "i"."v1" as select * from "pg.test1"
