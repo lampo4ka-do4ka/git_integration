@@ -1,2 +1,0 @@
-call SYSADMIN.createConnection(name => 'excel', jbossCliTemplateName => 'excel', connectionOrResourceAdapterProperties => 'ParentDirectory=E:/TestData', encryptedProperties => '');;
-call SYSADMIN.createDatasource(name => 'excel', translator => 'excel', modelProperties => 'importer.ExcelFileName=test_excel_xls.xls,importer.useFullSchemaName=false,importer.headerRowNumber=1', translatorProperties => '', encryptedModelProperties => '', encryptedTranslatorProperties => '');;
