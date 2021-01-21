@@ -1,0 +1,1 @@
+CALL SYSADMIN.importUser(name => 'user6', encryptedPwd => '8HpLh3dI83I=', role_name => 'connect-dv-role');;
