@@ -1,1 +1,2 @@
 CALL SYSADMIN.addRole(name => 'role12', allowCreateTempTables  => true);;
+CALL SYSADMIN.setPermissions(role_name => 'role12', resourceName => 'resource', permissions => 'CRUDEAL', isConstraint => true);;
