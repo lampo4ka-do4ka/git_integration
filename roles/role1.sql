@@ -1,1 +1,0 @@
-CALL SYSADMIN.addRole(name => 'role1', allowCreateTempTables  => false);;
