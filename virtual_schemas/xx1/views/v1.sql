@@ -1,0 +1,1 @@
+create view xx1.v1 as select 1
