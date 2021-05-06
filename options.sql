@@ -19,10 +19,10 @@ CALL SYSADMIN.setDefaultOptionValue(opt => 'MAT_CLEANER_DROP_TIMEOUT', val => '1
 CALL SYSADMIN.setDefaultOptionValue(opt => 'MAINTENANCE', val => 'false');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'ENABLE_EXPLAIN_LOG_OUTPUT', val => 'false');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'ENABLE_DATA_LINEAGE', val => 'false');;
-CALL SYSADMIN.setDefaultOptionValue(opt => 'GIT_INTEGRATION_PATH', val => 'E:\DataVirtuality\git_integration');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'WEB_BUSINESS_DATA_SHOP_EXPORT_FORMATS', val => 'CSV,EXCEL,TABLEAU,POWERBI,RLANG,PYTHON,HTTPREQUEST');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'SIMPLIFIED_DATA_LINEAGE', val => 'true');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'ALLOW_XML_TEXT_NODE_WHITESPACE', val => 'false');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'OLD_PERMISSIONS_BEHAVIOR', val => 'true');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'AUTO_ADD_COLUMNS', val => 'false');;
 CALL SYSADMIN.setDefaultOptionValue(opt => 'PLAINID_CONFIGURATION', val => '');;
+CALL SYSADMIN.setDefaultOptionValue(opt => 'GIT_INTEGRATION_PATH', val => 'E:\DATAVIRTUALITY\GIT_INTEGRATION');;
